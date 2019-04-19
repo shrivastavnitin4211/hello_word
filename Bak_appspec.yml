@@ -1,5 +1,10 @@
 version: 0.0
 os: linux
+hooks:
+  RemoveFile:
+    - location: scripts/remove
+      timeout: 300
+      runas: root
 
 files:
   - source: /target/JenkinsWar.war
@@ -8,10 +13,6 @@ files:
 hooks:
   ApplicationStop:
     - location: scripts/stop_server
-      timeout: 300
-      runas: root
-  BeforeInstall:
-    - location: scripts/uninstall_war 
       timeout: 300
       runas: root
   ApplicationStart:
