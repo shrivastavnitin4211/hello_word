@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>This is Tomcat 9 Deployment Test</h2>
-<h2>Hello application deployed successfully </h2>
+<h2>Tomcat 9 Deployment Test</h2>
+<h2>Application deployed successfully </h2>
 </body>
 </html>
