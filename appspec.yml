@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /target/JenkinsWar.war
-    destination: /data1/userapi/apache-tomcat-9.0.16/webapps/
+    destination: /data1/userweb/apache-tomcat-9.0.16/webapps/
   
 hooks:
   ApplicationStop:
