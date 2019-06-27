@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf /data1/batchloader/apache-tomcat-9.0.16/webapps/JenkinsWar
-rm -f /data1/batchloader/apache-tomcat-9.0.16/webapps/JenkinsWar.war
+rm -rf /data1/batchloader/apache-tomcat-9.0.16/webapps/ROOT
+rm -f /data1/batchloader/apache-tomcat-9.0.16/webapps/ROOT.war
 

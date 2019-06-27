@@ -7,7 +7,7 @@ hooks:
       runas: root
 
 files:
-  - source: /target/JenkinsWar.war
+  - source: /target/ROOT.war
     destination: /data1/userweb/apache-tomcat-9.0.16/webapps/
   
 hooks:
