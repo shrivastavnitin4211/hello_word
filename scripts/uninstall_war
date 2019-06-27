@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf /data1/batchloader/apache-tomcat-9.0.16/webapps/ROOT
-rm -f /data1/batchloader/apache-tomcat-9.0.16/webapps/ROOT.war
+rm -rf /data1/userweb/apache-tomcat-9.0.16/webapps/ROOT
+rm -f /data1/userweb/apache-tomcat-9.0.16/webapps/ROOT.war
 
