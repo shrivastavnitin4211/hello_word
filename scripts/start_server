@@ -1,4 +1,5 @@
 #!/bin/bash
+sleep 60
 sudo service tomcatmaintuserweb stop
 sudo service tomcatuserweb start
 
